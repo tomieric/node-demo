@@ -1,0 +1,13 @@
+{
+  "name": "my-blog",
+  "version": "0.0.1",
+  "author": "tommyshao",
+  "dependencies": {
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "jade": "^1.7.0",
+    "pygmentize-bundled": "^2.2.0",
+    "vhost": "^3.0.0"
+  }
+}

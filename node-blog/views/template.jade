@@ -1,0 +1,20 @@
+doctype
+html
+	head
+		title jade模板
+		meta(charset="utf-8")
+	body
+		#container 内容
+		.user-details 用户
+		p
+			| foo bar
+			| sdfsdfsd
+		label Username:
+			input(name="user[name]")
+
+		// 这里是注释
+		ul
+			li: a(href="http://baidu.com") baidu.com
+		:markdown
+			#哈哈
+		- var foo = bar;
